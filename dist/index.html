@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>WishList</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div id="preloader"></div>
+	<header>
+		<h1>WISHLIST GENERATOR</h1>
+	</header>
+	<section class="container">
+		<form class="myForm" id="my-form">
+			<div class="msg">
+				
+			</div>
+		<div>
+			<label for="name">Name</label>
+			<input type="text" name="" id="name">
+		</div>
+		<div>
+			<label>Birthday date</label>
+			<input type="date" name="" id="birthday">
+		</div>
+		<input class="btn" type="submit" name=""value="submit">
+		</form>
+		
+		<form  class="myForm" id="myForm">
+			<div>
+				<div class="msg3"></div>
+				<label>Wish Item</label>
+				<input type="text" id="wishName">
+
+				<label>Price</label>
+				<input type="number" id="price">
+				<input class="btn wishBtn" type="submit" name=""value="Add to WISHLIST">
+			</div>
+			<br>
+			<br>
+		<div class="msg2"></div>
+		<br>
+			<div class="list">
+				<ul class="list2"></ul>
+			</div>
+			<div>
+				<button class="shareBtn">Share with friends/receive Funds</button>
+			</div>
+		</form>
+	</section>
+	<script type="text/javascript" src="main.js"></script>
+	<script>
+		var loader=document.querySelector('#preloader');
+		window.addEventListener('load',function(){
+			loader.style.display='none';
+		});
+	</script>
+</body>
+</html>

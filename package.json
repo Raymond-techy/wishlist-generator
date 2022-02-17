@@ -1,0 +1,15 @@
+{
+  "name": "wishlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://Raymond-techy.github.io/wishList-Generator",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
